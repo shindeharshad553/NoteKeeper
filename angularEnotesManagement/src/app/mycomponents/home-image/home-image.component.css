@@ -1,0 +1,12 @@
+/* .image-container{
+  height:80%;
+  width:60%;
+  object-fit: cover;
+  position: absolute;
+} */
+img{
+  /* height: 454px; */
+  height: 473px;;
+  /* width: 1263px; */
+  width: 1279px;
+}

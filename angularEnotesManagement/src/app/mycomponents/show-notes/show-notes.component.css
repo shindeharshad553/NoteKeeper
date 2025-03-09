@@ -1,0 +1,46 @@
+/* .note-container {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer {
+  background-color: #6c757d;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.highlight-text {
+  color: #ff9800;
+}
+ */
+
+
+/* Make the navbar fixed at the top */
+.app-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #343a40; /* Dark background for the navbar */
+  z-index: 1000; /* Ensure navbar is above other content */
+  padding: 1rem; /* Padding for the navbar */
+  color: white; /* Text color for the navbar */
+}
+
+/* Main container below the navbar */
+.container {
+  margin-top: 70px; /* Add margin to account for the fixed navbar height */
+  padding: 20px;
+}
+
+/* The show notes section (or content that should scroll) */
+.show-notes-container {
+  max-height: calc(100vh - 70px); /* Make sure content height is adjusted to the viewport minus navbar height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px;
+  background-color: #f8f9fa; /* Background color for content */
+  border-radius: 8px; /* Rounded corners for content */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for content */
+}
